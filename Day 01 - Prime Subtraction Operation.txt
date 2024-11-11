@@ -1,0 +1,8 @@
+Problem-link : https://leetcode.com/problems/prime-subtraction-operation
+Solution : 
+1. Iterate array in reverse Direction.
+2. Check if the strictly increasing array condition is breaking.
+3. Try to make array strictly increasing by subtracting the minimum strictly less prime p from nums[i]
+4. If the strictly increasing array condition is still breaking return false simply.
+5. After the complete iteration simply return true.
+

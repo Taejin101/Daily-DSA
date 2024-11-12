@@ -1,0 +1,3 @@
+Problem Link - https://leetcode.com/problems/most-beautiful-item-for-each-query
+Solution 1 - Sorting + Binary Search
+Solution 2 - Sorting items based on prices + Sorting queries

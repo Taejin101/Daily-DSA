@@ -1,0 +1,11 @@
+Problem Link - https://leetcode.com/problems/count-the-number-of-fair-pairs
+Solution - 
+Hints - Binary Search (lower_bound)
+1. Sort the array
+2. Iterate through every element
+3. Fix one number of pair and search for another pairs
+4. (lower - nums[i] --------- upper - nums[i]) is the range
+5. low = lower_bound(nums, i+1, nums.size()-1, lower-nums[i])
+6. high = lower_bound(nums, i+1, nums.size()-1, upper-nums[i]+1)
+7. ans += (high - low)
+

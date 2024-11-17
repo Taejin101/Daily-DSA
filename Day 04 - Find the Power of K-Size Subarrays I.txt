@@ -1,0 +1,5 @@
+Problem link - https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i
+Solution - 
+1. Brute force worked as the constraints is low
+2. Use Deque 
+3. Use simple counter
